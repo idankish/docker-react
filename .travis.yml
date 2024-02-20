@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t idankish/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true idankish/docker-react npm run test  
