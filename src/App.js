@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React - Hello from Frontend app!
+          Learn React - Hello from Frontend feature branch!
         </a>
       </header>
     </div>
